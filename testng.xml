@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <suite name="Suite1" verbose="1"  >
+ <parameter name="browser" value="Chrome"/>
+ <!-- 
+ <test name="samplePageTest" >
+ 	<groups>
+ 	<run>
+ 	<include name="Group1"></include>
+ 	</run>
+ 	</groups>
+ 	
+   <classes>
+   <class name="Selenium.Training.Demo.ExecutionClass" >
+       
+    </class>
+</classes>
+   </test> -->
+   
+   <test name="AmazonTest" >
+   <classes>
+   <class name="AmazonTest.BDD.AmazonBDD" >
+       
+    </class>
+</classes>
+   </test>
+   
+   
+   
+ </suite>
